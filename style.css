@@ -7,11 +7,12 @@
     
 }
 header{
-    background: #ffffff;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color:#ffffff; 
     border: 1px solid #cccccc;
+    border-top: none;
+    display: block;
     width: 100%;
-    height:78px;
+    height:65px;
     margin-bottom: 30px;
 }
 div{
@@ -53,11 +54,13 @@ h1{
     color:#ffffff;
     display: inline-block;
     margin:inherit;
-    padding:21px;
     border: 1px solid #cccccc;
-    margin-top:0;
     border-top: none;
     float: left;
+    height:65px;
+    padding-top:10px;
+    padding-right:25px;
+    padding-left:25px;
 }
 h2{
     color: #4aaaa5;
